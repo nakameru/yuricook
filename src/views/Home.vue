@@ -6,12 +6,12 @@
       </v-tab>
     </v-tabs>
 
-    <v-tabs-items v-model="activeTab">
-      <v-tab-item>
+    <v-tab-items v-model="activeTab">
+      <v-tab-item v-for="(recipe, index) in recipes" :key="index">
         <v-table>
           <tbody>
             <tr
-              v-for="(item, i) in recipes[activeTab].tables"
+              v-for="(item, i) in recipe.tables"
               :key="i"
               @click="openDialog(item)"
               style="cursor: pointer"
@@ -21,7 +21,7 @@
           </tbody>
         </v-table>
       </v-tab-item>
-    </v-tabs-items>
+    </v-tab-items>
 
     <v-dialog v-model="dialog" max-width="500">
       <v-card>
