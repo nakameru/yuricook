@@ -140,19 +140,19 @@
         "ingredients": "豚肉",
         "seasoning": "醤油大１、生姜少々",
         "process": "電子鍋"
-      }
+      },
       {
         "title": "レタス炒飯",
         "ingredients": "豚肉",
         "seasoning": "醤油大１、生姜少々",
         "process": "電子鍋"
-      }
+      },
       {
         "title": "ステーキ炒飯",
         "ingredients": "豚肉",
         "seasoning": "醤油大１、生姜少々",
         "process": "電子鍋"
-      }
+      },
       {
         "title": "オムライス",
         "ingredients": "豚肉",
@@ -178,5 +178,5 @@
         "process": "電子鍋"
       }
     ]
-  },
+  }
 ]
